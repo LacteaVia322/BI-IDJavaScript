@@ -43,17 +43,17 @@ function testing(a,n) {
     }
 }
 
-//alert('Введите значение числа n');
-//var n=prompt(n);
-alert('n=5');
-var n=5;
+alert('Введите значение числа n');
+var n=prompt(n);
+//alert('n=5');
+//var n=5;
 var a=[],test=1,s0=0,s=0;
-a=[[17,24,1,8,15],[23,5, 7,14 ,16],[4,6,13 ,20,22],[10,12,19,21,3],[11,18,25,2,9]]
+//a=[[17,24,1,8,15],[23,5, 7,14 ,16],[4,6,13 ,20,22],[10,12,19,21,3],[11,18,25,2,9]]
 for(var i=0;i<n;i++) {
     for (var j = 0; j < n; j++) {
-        //a[i][j] = Math.random() * (n * n);
+        a[i][j] = Math.random() * (n * n);
         // a[i][j]=prompt(a[i][j]);
-        //a[i][j] = Math.floor(a[i][j]);
+        a[i][j] = Math.floor(a[i][j]);
         alert(a[i][j]+' ');
 
     }
