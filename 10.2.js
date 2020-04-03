@@ -1,0 +1,22 @@
+//778
+var I1=7,I2=5,I3=3,H1=4,H2=3,S1=2,S2=3,r=1.6,V0,g=9.81,sina,cosa,Lmax,Hmax,a,z;
+s=I1+I2+I3;
+alert('s= '+s);
+Hmax=S1+H1;
+Lmax=(s)/2;
+a=Hmax/Lmax;
+a =Math.round(parseFloat(a) * 100) / 100;
+alert('a= '+a);
+a=Math.atan(a)*180/3.14;
+a =Math.round(a);
+alert('a= '+a);
+cosa=Math.cos(a);
+cosa =Math.round(parseFloat(cosa) * 100) / 100;
+alert('cosa= '+cosa);
+sina=Math.sin(a);
+sina =Math.round(parseFloat(sina) * 100) / 100;
+alert('sina= '+sina);
+z=sina*s/cosa-H2-S2;
+V0=(s/cosa)*Math.sqrt(g/(z));
+V0=Math.round(V0);
+alert('V0= '+V0);
