@@ -19,4 +19,5 @@ alert('sina= '+sina);
 z=sina*s/cosa-H2-S2;
 V0=(s/cosa)*Math.sqrt(g/(z));
 V0=Math.round(V0);
-alert('V0= '+V0);
+alert('С такой начальной скоростью надо кинуть V0= '+V0);
+alert('Под углом а= '+a);
